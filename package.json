@@ -1,0 +1,66 @@
+{
+  "name": "rn-simple-modal",
+  "description": "A zero-dependencies and lightweight modal without animation",
+  "version": "1.2.0",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc -w",
+    "test": "jest",
+    "lint": "eslint ./src --ext .js,.jsx,.ts,.tsx",
+    "release": "semantic-release"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "@semantic-release/changelog": "^6.0.2",
+    "@semantic-release/commit-analyzer": "^9.0.2",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.7",
+    "@semantic-release/npm": "^9.0.1",
+    "@semantic-release/release-notes-generator": "^10.0.3",
+    "@testing-library/jest-native": "^5.3.0",
+    "@testing-library/react-native": "^11.5.0",
+    "@tsconfig/react-native": "^2.0.2",
+    "@types/jest": "^26.0.23",
+    "@types/react": "^18.0.21",
+    "@types/react-native": "^0.70.6",
+    "@types/react-test-renderer": "^18.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.37.0",
+    "@typescript-eslint/parser": "^5.37.0",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.32.0",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "0.73.4",
+    "react": "18.2.0",
+    "react-native": "0.70.6",
+    "react-test-renderer": "18.2.0",
+    "semantic-release": "^19.0.5",
+    "typescript": "^4.8.3"
+  },
+  "keywords": [
+    "react-native",
+    "react",
+    "native",
+    "modal",
+    "android",
+    "ios",
+    "simple"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/"
+  ],
+  "author": "maxgfr",
+  "license": "MIT",
+  "homepage": "https://github.com/maxgfr/rn-simple-modal",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxgfr/rn-simple-modal"
+  }
+}
