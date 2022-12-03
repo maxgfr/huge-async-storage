@@ -1,1 +1,1 @@
-export * from './SimpleModal';
+export * from './storage';

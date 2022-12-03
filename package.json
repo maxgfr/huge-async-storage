@@ -1,11 +1,11 @@
 {
-  "name": "rn-simple-modal",
-  "description": "A zero-dependencies and lightweight modal without animation",
-  "version": "1.2.0",
+  "name": "huge-async-storage",
+  "description": "A wrapper of AsyncStorage that allows you to store huge data",
+  "version": "1.0.0",
   "scripts": {
     "build": "tsc",
     "build:watch": "tsc -w",
-    "test": "jest",
+    "test": "jest --passWithNoTests",
     "lint": "eslint ./src --ext .js,.jsx,.ts,.tsx",
     "release": "semantic-release"
   },
@@ -46,10 +46,9 @@
     "react-native",
     "react",
     "native",
-    "modal",
-    "android",
-    "ios",
-    "simple"
+    "async-storage",
+    "storage",
+    "huge"
   ],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -58,9 +57,12 @@
   ],
   "author": "maxgfr",
   "license": "MIT",
-  "homepage": "https://github.com/maxgfr/rn-simple-modal",
+  "homepage": "https://github.com/maxgfr/huge-async-storage",
   "repository": {
     "type": "git",
-    "url": "https://github.com/maxgfr/rn-simple-modal"
+    "url": "https://github.com/maxgfr/huge-async-storage"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.17.11"
   }
 }

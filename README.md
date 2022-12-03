@@ -1,21 +1,21 @@
-# rn-simple-modal
+# huge-async-storage
 
-A zero-dependencies and lightweight modal without animation for [react-native](https://reactnative.dev/).
+A wrapper of AsyncStorage that allows you to store huge data on [react-native](https://reactnative.dev/).
 
 ## Installation
 
 ```sh
-yarn add rn-simple-modal
+yarn add huge-async-storage
 ```
 
 ## Usage
 
 ```tsx
-import {SimpleModal} from "rn-simple-modal";
+import {storeAsync, getAsync, removeAsync} from "huge-async-storage";
 
 .....
 
-<SimpleModal isVisble={true}>
-  <View>....</View>
-</SimpleModal>
+await storeAsync(`value1`, {value: Array(1000000).fill(1)}); // store huge data
+const value1 = await getAsync(`value1`); // to get the value by key
+await removeAsync(`value1`); // to remove the value
 ```
