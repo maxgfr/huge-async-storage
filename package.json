@@ -1,7 +1,7 @@
 {
   "name": "huge-async-storage",
   "description": "A wrapper of AsyncStorage that allows you to store huge data",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "scripts": {
     "build": "tsc",
     "build:watch": "tsc -w",
