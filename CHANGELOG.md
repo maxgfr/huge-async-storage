@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/maxgfr/huge-async-storage/compare/v1.0.2...v1.0.3) (2023-06-06)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @react-native-async-storage/async-storage to v1.18.2 ([f34f780](https://github.com/maxgfr/huge-async-storage/commit/f34f780012a0bbd3885b00807dba9f307fa2cb1e))
+
 ## [1.0.2](https://github.com/maxgfr/huge-async-storage/compare/v1.0.1...v1.0.2) (2023-03-29)
 
 
