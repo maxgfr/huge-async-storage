@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 maxgfr/huge-async-storage is built on the following main stack:
+
 - [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
 - [React](https://reactjs.org/) – Javascript UI Libraries
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
@@ -13,11 +14,13 @@ maxgfr/huge-async-storage is built on the following main stack:
 - [GitHub Actions](https://github.com/features/actions) – Continuous Integration
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 maxgfr/huge-async-storage is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/830/jest.png' alt='Jest'/> [Jest](http://facebook.github.io/jest/) – Javascript Testing Framework
 - <img width='25' height='25' src='https://img.stackshare.io/service/1020/OYIaJ1KK.png' alt='React'/> [React](https://reactjs.org/) – Javascript UI Libraries
 - <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
@@ -29,14 +32,15 @@ maxgfr/huge-async-storage is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](https://github.com/features/actions) – Continuous Integration
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [maxgfr/huge-async-storage](https://github.com/maxgfr/huge-async-storage)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|31<br/>Tools used|11/10/23 <br/>Report generated|
+|31<br/>Tools used|12/14/23 <br/>Report generated|
 |------|------|
 </div>
 
@@ -76,7 +80,7 @@ Full tech stack [here](/techstack.md)
   <br>
   <sub><a href="http://facebook.github.io/">React Native</a></sub>
   <br>
-  <sub>v0.72.6</sub>
+  <sub>v0.73.0</sub>
 </td>
 
 </tr>
@@ -89,7 +93,7 @@ Full tech stack [here](/techstack.md)
   <br>
   <sub><a href="http://babeljs.io/">Babel</a></sub>
   <br>
-  <sub>v7.23.3</sub>
+  <sub>v7.23.6</sub>
 </td>
 
 <td align='center'>
@@ -163,9 +167,9 @@ Full tech stack [here](/techstack.md)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
-|[@babel/core](https://www.npmjs.com/@babel/core)|v7.23.3|07/07/23|renovate[bot] |MIT|N/A|
-|[@babel/runtime](https://www.npmjs.com/@babel/runtime)|v7.23.2|07/07/23|renovate[bot] |MIT|N/A|
-|[@react-native-community/eslint-config](https://www.npmjs.com/@react-native-community/eslint-config)|v2.0.0|10/12/23|renovate[bot] |MIT|N/A|
+|[@babel/core](https://www.npmjs.com/@babel/core)|v7.23.6|07/07/23|renovate[bot] |MIT|N/A|
+|[@babel/runtime](https://www.npmjs.com/@babel/runtime)|v7.23.6|07/07/23|renovate[bot] |MIT|N/A|
+|[@react-native-community/eslint-config](https://www.npmjs.com/@react-native-community/eslint-config)|v2.0.0|12/06/23|renovate[bot] |MIT|N/A|
 |[@semantic-release/changelog](https://www.npmjs.com/@semantic-release/changelog)|v6.0.3|12/03/22|Maxime Golfier |MIT|N/A|
 |[@semantic-release/commit-analyzer](https://www.npmjs.com/@semantic-release/commit-analyzer)|v9.0.2|12/03/22|Maxime Golfier |MIT|N/A|
 |[@semantic-release/git](https://www.npmjs.com/@semantic-release/git)|v10.0.1|12/03/22|maxgfr |MIT|N/A|
@@ -173,17 +177,17 @@ Full tech stack [here](/techstack.md)
 |[@semantic-release/npm](https://www.npmjs.com/@semantic-release/npm)|v9.0.2|12/03/22|Maxime Golfier |MIT|N/A|
 |[@semantic-release/release-notes-generator](https://www.npmjs.com/@semantic-release/release-notes-generator)|v10.0.3|12/03/22|Maxime Golfier |MIT|N/A|
 |[@types/jest](https://www.npmjs.com/@types/jest)|v26.0.24|05/09/23|renovate[bot] |MIT|N/A|
-|[@types/react](https://www.npmjs.com/@types/react)|v18.2.37|10/12/23|renovate[bot] |MIT|N/A|
-|[@types/react-native](https://www.npmjs.com/@types/react-native)|v0.72.6|10/12/23|renovate[bot] |MIT|N/A|
-|[@types/react-test-renderer](https://www.npmjs.com/@types/react-test-renderer)|v18.0.6|10/12/23|renovate[bot] |MIT|N/A|
+|[@types/react](https://www.npmjs.com/@types/react)|v18.2.45|12/06/23|renovate[bot] |MIT|N/A|
+|[@types/react-native](https://www.npmjs.com/@types/react-native)|v0.72.8|12/06/23|renovate[bot] |MIT|N/A|
+|[@types/react-test-renderer](https://www.npmjs.com/@types/react-test-renderer)|v18.0.7|12/06/23|renovate[bot] |MIT|N/A|
 |[@typescript-eslint/eslint-plugin](https://www.npmjs.com/@typescript-eslint/eslint-plugin)|v3.10.1|05/09/23|renovate[bot] |MIT|N/A|
 |[@typescript-eslint/parser](https://www.npmjs.com/@typescript-eslint/parser)|v3.10.1|05/09/23|renovate[bot] |BSD-2-Clause|N/A|
 |[babel-jest](https://www.npmjs.com/babel-jest)|v26.6.3|07/07/23|renovate[bot] |MIT|N/A|
-|[metro-react-native-babel-preset](https://www.npmjs.com/metro-react-native-babel-preset)|v0.76.8|10/12/23|renovate[bot] |MIT|N/A|
-|[react-native](https://www.npmjs.com/react-native)|v0.72.6|10/12/23|renovate[bot] |MIT|N/A|
-|[react-test-renderer](https://www.npmjs.com/react-test-renderer)|v18.2.0|10/12/23|renovate[bot] |MIT|N/A|
+|[metro-react-native-babel-preset](https://www.npmjs.com/metro-react-native-babel-preset)|v0.77.0|12/06/23|renovate[bot] |MIT|N/A|
+|[react-native](https://www.npmjs.com/react-native)|v0.73.0|12/06/23|renovate[bot] |MIT|N/A|
+|[react-test-renderer](https://www.npmjs.com/react-test-renderer)|v18.2.0|12/06/23|renovate[bot] |MIT|N/A|
 
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
