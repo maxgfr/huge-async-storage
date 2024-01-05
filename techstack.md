@@ -40,7 +40,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [maxgfr/huge-async-storage](https://github.com/maxgfr/huge-async-storage)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|31<br/>Tools used|12/14/23 <br/>Report generated|
+|32<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -161,9 +161,9 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (19)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (20)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (19)
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (20)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
@@ -186,6 +186,7 @@ Full tech stack [here](/techstack.md)
 |[metro-react-native-babel-preset](https://www.npmjs.com/metro-react-native-babel-preset)|v0.77.0|12/06/23|renovate[bot] |MIT|N/A|
 |[react-native](https://www.npmjs.com/react-native)|v0.73.0|12/06/23|renovate[bot] |MIT|N/A|
 |[react-test-renderer](https://www.npmjs.com/react-test-renderer)|v18.2.0|12/06/23|renovate[bot] |MIT|N/A|
+|[semantic-release](https://www.npmjs.com/semantic-release)|v19.0.5|12/03/22|Maxime Golfier |MIT|N/A|
 
 <br/>
 <div align='center'>
