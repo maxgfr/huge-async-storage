@@ -1,3 +1,10 @@
+## [1.0.15](https://github.com/maxgfr/huge-async-storage/compare/v1.0.14...v1.0.15) (2024-02-23)
+
+
+### Bug Fixes
+
+* **deps:** update dependencies ([133d3b8](https://github.com/maxgfr/huge-async-storage/commit/133d3b8f0430d62e80a8b81206193a96bf09ceb0))
+
 ## [1.0.14](https://github.com/maxgfr/huge-async-storage/compare/v1.0.13...v1.0.14) (2024-02-20)
 
 
