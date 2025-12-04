@@ -48,7 +48,8 @@
     "native",
     "async-storage",
     "storage",
-    "huge"
+    "huge",
+    "large"
   ],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
