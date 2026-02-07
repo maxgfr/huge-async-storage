@@ -1,0 +1,39 @@
+name: CI
+
+on:
+  push:
+    branches: [main, next, beta, alpha]
+  pull_request:
+    branches: [main, next, beta, alpha]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'yarn'
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: Format check (Prettier)
+        run: yarn prettier --check src/**/*.ts
+
+      - name: Lint (ESLint)
+        run: yarn lint
+
+      - name: Type check (TSC)
+        run: yarn tsc --noEmit
+
+      - name: Build
+        run: yarn build
+
+      - name: Test
+        run: yarn test

@@ -95,7 +95,7 @@ export async function getAsync<T>(key: string): Promise<T> {
     const part = await AsyncStorage.getItem(`${key}${i}`);
     if (part === null) {
       throw new Error(
-        `Storage corruption: chunk ${i} of ${count} missing for key "${key}"`
+        `Storage corruption: chunk ${i} of ${count} missing for key "${key}"`,
       );
     }
     chunks.push(part);
@@ -111,7 +111,9 @@ export async function getAsync<T>(key: string): Promise<T> {
     return JSON.parse(serialized) as T;
   } catch (error) {
     throw new Error(
-      `Failed to parse data for key "${key}": ${error instanceof Error ? error.message : 'Unknown error'}`
+      `Failed to parse data for key "${key}": ${
+        error instanceof Error ? error.message : 'Unknown error'
+      }`,
     );
   }
 }
