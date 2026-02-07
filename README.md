@@ -286,10 +286,21 @@ await storeAsync('veryLongKeyNameThatWastesMemory', userData);
 
 ## Platform Support
 
-| Platform | AsyncStorage Limit | Chunk Size |
-|----------|-------------------|------------|
-| iOS | ~6MB default | 1MB |
-| Android | ~6MB default | 1MB |
+| Platform | Total Storage | Per-Entry Limit | Chunk Size | Notes |
+|----------|---------------|-----------------|------------|-------|
+| **iOS** | ~6MB default | ~6MB | 1MB | Safe within default limits |
+| **Android** | ~6MB default (configurable) | ~2MB (WindowCursor SQLite) | 1MB | ✅ **Below Android's 2MB per-entry limit** |
+
+### Why 1MB Chunk Size?
+
+The 1MB chunk size is specifically designed to work within Android's **WindowCursor SQLite limit** of approximately 2MB per entry:
+
+> *"Per-entry is limited by a size of a WindowCursor, a buffer used to read data from SQLite. Currently it's size is around 2 MB."* — AsyncStorage Documentation
+
+By using 1MB chunks, this library:
+- ✅ Stays safely below Android's 2MB per-entry limit
+- ✅ Allows storing data larger than the 6MB total limit through chunking
+- ✅ Works across iOS and Android without platform-specific code
 
 ## License
 
